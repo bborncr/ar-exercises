@@ -4,6 +4,7 @@ puts "Exercise 1"
 puts "----------"
 
 class Store < ActiveRecord::Base
+  has_many :employees
 end
 
 # Burnaby
